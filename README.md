@@ -2,6 +2,8 @@
 
 A simple and effective web app built with **Streamlit** that detects whether a news article is real or fake using a **Support Vector Machine (SVM)** classifier trained on TF-IDF features. The model achieves **99% accuracy** on the test set.
 
+The **attached notebook** will walk you through the data preprocessing steps and model design and evaluation. 
+
 ---
 
 ## Project Structure
