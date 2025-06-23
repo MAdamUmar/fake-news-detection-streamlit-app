@@ -1,17 +1,17 @@
-# 📰 Fake News Detection Web App
+# Fake News Detection Web App
 
 A simple and effective web app built with **Streamlit** that detects whether a news article is real or fake using a **Support Vector Machine (SVM)** classifier trained on TF-IDF features. The model achieves **99% accuracy** on the test set.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 👉 [Click here to try the app](https://your-username.streamlit.app)  
 *(Replace with your actual Streamlit app URL)*
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 This repository contains the following:
 
@@ -24,13 +24,13 @@ This repository contains the following:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains thousands of news articles labeled as either **real** or **fake**. It includes fields like title, author, and content. The focus was on the `content` column, which underwent preprocessing before feature extraction.
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - **Vectorizer:** TF-IDF with `max_features=5000`  
 - **Classifier:** Support Vector Machine (SVM) with linear kernel  
@@ -43,7 +43,7 @@ The dataset contains thousands of news articles labeled as either **real** or **
 
 ---
 
-## 💻 How to Run Locally
+## How to Run Locally
 
 1. Clone the repo:
    ```bash
