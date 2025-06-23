@@ -15,13 +15,11 @@ This repository contains the following:
 - `tfidf_vectorizer.pkl` – The TF-IDF vectorizer fitted on the training data  
 - `requirements.txt` – List of Python dependencies  
 - `Fake News Prediction Work Notebook.ipynb` – Jupyter notebook used for data cleaning, EDA, model training and evaluation  
-- `Dataset.csv` – The dataset used to train the model (optional, for reproducibility)
-
 ---
 
 ## Dataset
 
-The dataset contains thousands of news articles labeled as either **real** or **fake**. It includes fields like title, author, and content. The focus was on the `content` column, which underwent preprocessing before feature extraction.
+This project uses this [Kaggle Dataset](https://www.kaggle.com/datasets/saratchendra/fake-news). The dataset contains thousands of news articles labeled as either **real** or **fake**. It includes fields like title, author, and content. The focus was on the `content` column, which underwent preprocessing before feature extraction.
 
 ---
 
