@@ -4,13 +4,6 @@ A simple and effective web app built with **Streamlit** that detects whether a n
 
 ---
 
-## Live Demo
-
-👉 [Click here to try the app](https://your-username.streamlit.app)  
-*(Replace with your actual Streamlit app URL)*
-
----
-
 ## Project Structure
 
 This repository contains the following:
@@ -43,6 +36,12 @@ The dataset contains thousands of news articles labeled as either **real** or **
 
 ---
 
+## Live Demo
+
+👉 [Click here to try the app](https://fake-news-detection-app-adam.streamlit.app/)
+
+---
+
 ## How to Run Locally
 
 1. Clone the repo:
@@ -57,6 +56,16 @@ The dataset contains thousands of news articles labeled as either **real** or **
 3. Run the app:
    ```bash
    streamlit run app.py
+
+## Deployment (Streamlit Cloud)
+
+To deploy this app to the web:
+
+1. Push this repo to your GitHub account
+2. Go to https://streamlit.io/cloud
+3. Sign in and create a new app
+4. Choose the repo and set app.py as the entry point
+5. Click Deploy
 
 #### Author
 Built by Muhammad Adam Umar as part of his data science portfolio.
